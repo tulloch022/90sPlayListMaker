@@ -11,4 +11,16 @@ const randomMusic = (array) => {
 
 const message = `Your playlist consists of: ${randomMusic(musicChoices.femaleSingers)}, ${randomMusic(musicChoices.maleSingers)}, and ${randomMusic(musicChoices.bands)}`
 
-console.log(message)
+
+
+let playlistStatement = document.getElementById('playlist');
+let button = document.getElementById('button');
+
+let givePlaylist = function() {
+    playlistStatement.innerHTML = message;
+};
+
+
+button.addEventListener('click', givePlaylist);
+
+

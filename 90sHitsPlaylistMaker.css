@@ -1,0 +1,33 @@
+html {
+    background-color:azure;
+}
+
+
+
+
+#banner {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Impact, Haettenschweiler, Arial Narrow Bold, sans-serif';
+}
+
+#generateButton {
+    text-align: center;
+}
+
+#button {
+    width: 300;
+    height: 100px;
+    border-radius: 20px;
+    background-color: coral;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 32px;
+    font-size: 15px;
+    font-family:monospace
+}
+
+#playlist {
+    text-align: center;
+}
